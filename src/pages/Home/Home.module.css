@@ -1,0 +1,21 @@
+.wrapper {
+  width: 580px;
+  height: 560px;
+  margin: 0 auto;
+  padding: 28px 36px 36px;
+
+  background-image: url(../../images/hero-picture.png);
+  background-repeat: no-repeat;
+  background-position: 110px 100px;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.1;
+
+  text-transform: uppercase;
+  color: black;
+}
