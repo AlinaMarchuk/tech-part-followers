@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/tech-part-followers/static/css/main.1ba5722d.css",
-    "main.js": "/tech-part-followers/static/js/main.fec58daf.js",
+    "main.js": "/tech-part-followers/static/js/main.843d2150.js",
     "static/css/970.ca88d8ee.chunk.css": "/tech-part-followers/static/css/970.ca88d8ee.chunk.css",
     "static/js/970.6e78187c.chunk.js": "/tech-part-followers/static/js/970.6e78187c.chunk.js",
-    "static/css/694.fa56d626.chunk.css": "/tech-part-followers/static/css/694.fa56d626.chunk.css",
-    "static/js/694.8921b7f0.chunk.js": "/tech-part-followers/static/js/694.8921b7f0.chunk.js",
+    "static/css/694.47c0ab0f.chunk.css": "/tech-part-followers/static/css/694.47c0ab0f.chunk.css",
+    "static/js/694.f2bd2ffc.chunk.js": "/tech-part-followers/static/js/694.f2bd2ffc.chunk.js",
     "static/js/787.bf947195.chunk.js": "/tech-part-followers/static/js/787.bf947195.chunk.js",
     "static/js/693.347e1e89.chunk.js": "/tech-part-followers/static/js/693.347e1e89.chunk.js",
     "static/media/Montserrat-SemiBold.eot": "/tech-part-followers/static/media/Montserrat-SemiBold.262fb106797e141d7adf.eot",
@@ -17,16 +17,16 @@
     "static/media/hero-picture.png": "/tech-part-followers/static/media/hero-picture.86562350dcaa714a1442.png",
     "index.html": "/tech-part-followers/index.html",
     "main.1ba5722d.css.map": "/tech-part-followers/static/css/main.1ba5722d.css.map",
-    "main.fec58daf.js.map": "/tech-part-followers/static/js/main.fec58daf.js.map",
+    "main.843d2150.js.map": "/tech-part-followers/static/js/main.843d2150.js.map",
     "970.ca88d8ee.chunk.css.map": "/tech-part-followers/static/css/970.ca88d8ee.chunk.css.map",
     "970.6e78187c.chunk.js.map": "/tech-part-followers/static/js/970.6e78187c.chunk.js.map",
-    "694.fa56d626.chunk.css.map": "/tech-part-followers/static/css/694.fa56d626.chunk.css.map",
-    "694.8921b7f0.chunk.js.map": "/tech-part-followers/static/js/694.8921b7f0.chunk.js.map",
+    "694.47c0ab0f.chunk.css.map": "/tech-part-followers/static/css/694.47c0ab0f.chunk.css.map",
+    "694.f2bd2ffc.chunk.js.map": "/tech-part-followers/static/js/694.f2bd2ffc.chunk.js.map",
     "787.bf947195.chunk.js.map": "/tech-part-followers/static/js/787.bf947195.chunk.js.map",
     "693.347e1e89.chunk.js.map": "/tech-part-followers/static/js/693.347e1e89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ba5722d.css",
-    "static/js/main.fec58daf.js"
+    "static/js/main.843d2150.js"
   ]
 }
