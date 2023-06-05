@@ -19,18 +19,10 @@ export const getAllUsers = () => {
   }
 };
 
-export const updateFollowers = async user => {
+export const updateFollowers = async (id, user) => {
   try {
-    return await axios.put(`${USERS_URL}/${user.id}`, user);
+    return await axios.put(`${USERS_URL}/${id}`, user);
   } catch (error) {
     console.log(error.message);
-  }
-};
-
-export const getAllFollowings = () => {
-  try {
-    return axios.get(`${USERS_URL}`);
-  } catch (error) {
-    console.log(error);
   }
 };

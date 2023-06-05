@@ -1,5 +1,20 @@
 @import '../../shared/styles/constants.css';
 
+.link {
+  display: block;
+  margin-left: 16px;
+
+  text-align: start;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--primary-text-color);
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
+
 .list {
   display: flex;
   flex-wrap: wrap;

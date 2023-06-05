@@ -1,28 +1,8 @@
-import { useState } from "react";
-import PropTypes from "prop-types";
-import { updateFollowers } from "../../api/api";
-import css from "./TweetsCard.module.css";
+import PropTypes from 'prop-types';
+import css from './TweetsCard.module.css';
 
-const TweetsCard = ({ user }) => {
-  const { tweets, followers, avatar, following = false } = user;
-  const [isFollowing, setIsFollowing] = useState(following);
-  const [followerCount, setFollowerCount] = useState(followers);
-
-  const handleFollowing = () => {
-    const obj = { ...user };
-
-    if (isFollowing) {
-      obj.followers = obj.followers - 1;
-      obj.following = false;
-    } else {
-      obj.followers = obj.followers + 1;
-      obj.following = true;
-    }
-    updateFollowers(obj).then((response) => {
-      setFollowerCount(response.data.followers);
-    });
-    setIsFollowing(!isFollowing);
-  };
+const TweetsCard = ({ user, onFollow }) => {
+  const { id, tweets, followers, avatar, following } = user;
 
   return (
     <div className={css.wrapper}>
@@ -32,16 +12,17 @@ const TweetsCard = ({ user }) => {
       </div>
       <div className={css.infoBox}>
         <span className={css.tweets}>
-          {tweets.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} tweets
+          {tweets.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')} tweets
         </span>
         <span className={css.followers}>
-          {followerCount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}
-          followers
+          {followers.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')} followers
         </span>
-        {isFollowing ? (
+        {following ? (
           <button
             type="button"
-            onClick={handleFollowing}
+            onClick={() => {
+              onFollow(id);
+            }}
             className={`${css.button} ${css.btnFollowing}`}
           >
             Following
@@ -49,7 +30,9 @@ const TweetsCard = ({ user }) => {
         ) : (
           <button
             type="button"
-            onClick={handleFollowing}
+            onClick={() => {
+              onFollow(id);
+            }}
             className={`${css.button} ${css.btnFollow}`}
           >
             Follow
@@ -67,6 +50,7 @@ TweetsCard.propTypes = {
     avatar: PropTypes.string.isRequired,
     following: PropTypes.bool,
   }),
+  onFollow: PropTypes.func.isRequired,
 };
 
 export default TweetsCard;
