@@ -1,3 +1,5 @@
+@import "../../shared/styles/constants.css";
+
 .wrapper {
   width: 580px;
   height: 560px;
@@ -10,12 +12,9 @@
 }
 
 .title {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.1;
-
   text-transform: uppercase;
-  color: black;
+  color: var(--primary-text-color);
 }

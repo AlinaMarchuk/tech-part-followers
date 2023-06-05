@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# tech-part-followers
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### [Link to template Figma](https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=VoiYTfiXggVItgVd-1)
+
+### Getting Started
+
+```bash
+# Clone this repository
+$ git clone https://github.com/AlinaMarchuk/tech-part-followers.git
+# Install dependencies
+$ npm install
+# Run the app
+$ npm start
+```
 
 ## Available Scripts
 

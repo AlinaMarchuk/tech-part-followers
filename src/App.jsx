@@ -3,8 +3,8 @@ import { lazy } from "react";
 import "./App.css";
 import Layout from "./components/Layout/Layout";
 
-const HomePage = lazy(() => import("./pages/Home/Home"));
-const TweetsPage = lazy(() => import("./pages/Tweets/Tweets"));
+const HomePage = lazy(() => import("./pages/home/Home"));
+const TweetsPage = lazy(() => import("./pages/tweets/Tweets"));
 
 function App() {
   return (

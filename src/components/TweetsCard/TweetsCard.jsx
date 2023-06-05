@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import { updateFollowers } from "../../api/api";
 import css from "./TweetsCard.module.css";
 
@@ -57,6 +58,15 @@ const TweetsCard = ({ user }) => {
       </div>
     </div>
   );
+};
+
+TweetsCard.propTypes = {
+  user: PropTypes.shape({
+    tweets: PropTypes.number.isRequired,
+    followers: PropTypes.number.isRequired,
+    avatar: PropTypes.string.isRequired,
+    following: PropTypes.bool,
+  }),
 };
 
 export default TweetsCard;

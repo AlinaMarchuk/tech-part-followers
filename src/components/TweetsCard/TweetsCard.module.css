@@ -1,3 +1,5 @@
+@import "../../shared/styles/constants.css";
+
 .wrapper {
   position: relative;
   width: 380px;
@@ -21,7 +23,7 @@
   left: 0px;
   top: 214px;
 
-  background-color: #ebd8ff;
+  background-color: var(--accent-text-color);
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
     inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
 }
@@ -33,7 +35,7 @@
   left: 150px;
   top: 178px;
 
-  border: 8px solid #ebd8ff;
+  border: 8px solid var(--accent-text-color);
   border-radius: 50%;
 }
 
@@ -66,26 +68,22 @@
 
 .tweets {
   margin-bottom: 16px;
-  font-family: "Montserrat";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-transform: uppercase;
-
-  color: #ebd8ff;
+  color: var(--accent-text-color);
 }
 
 .followers {
   margin-bottom: 26px;
-  font-family: "Montserrat";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-transform: uppercase;
-
-  color: #ebd8ff;
+  color: var(--accent-text-color);
 }
 
 .button {
@@ -96,20 +94,17 @@
   border: none;
   border-radius: 10.3108px;
 
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
   text-transform: uppercase;
-
-  color: #373737;
+  color: var(--primary-text-color);
 }
 
 .btnFollow {
-  background-color: #ebd8ff;
+  background-color: var(--accent-text-color);
 }
 
 .btnFollowing {
-  background-color: #5cd3a8;
+  background-color: var(--active-color);
 }
