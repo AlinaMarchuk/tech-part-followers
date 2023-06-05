@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/tech-part-followers/static/css/main.ab28ba3f.css",
-    "main.js": "/tech-part-followers/static/js/main.c59602c6.js",
-    "static/css/936.45b6651d.chunk.css": "/tech-part-followers/static/css/936.45b6651d.chunk.css",
-    "static/js/936.1759bb5d.chunk.js": "/tech-part-followers/static/js/936.1759bb5d.chunk.js",
-    "static/css/552.21cccde3.chunk.css": "/tech-part-followers/static/css/552.21cccde3.chunk.css",
-    "static/js/552.acf6b2b4.chunk.js": "/tech-part-followers/static/js/552.acf6b2b4.chunk.js",
+    "main.css": "/tech-part-followers/static/css/main.1ba5722d.css",
+    "main.js": "/tech-part-followers/static/js/main.07bf816f.js",
+    "static/css/970.ca88d8ee.chunk.css": "/tech-part-followers/static/css/970.ca88d8ee.chunk.css",
+    "static/js/970.6e78187c.chunk.js": "/tech-part-followers/static/js/970.6e78187c.chunk.js",
+    "static/css/694.fa56d626.chunk.css": "/tech-part-followers/static/css/694.fa56d626.chunk.css",
+    "static/js/694.8921b7f0.chunk.js": "/tech-part-followers/static/js/694.8921b7f0.chunk.js",
     "static/js/787.bf947195.chunk.js": "/tech-part-followers/static/js/787.bf947195.chunk.js",
     "static/js/693.347e1e89.chunk.js": "/tech-part-followers/static/js/693.347e1e89.chunk.js",
+    "static/media/Montserrat-SemiBold.eot": "/tech-part-followers/static/media/Montserrat-SemiBold.262fb106797e141d7adf.eot",
+    "static/media/Montserrat-SemiBold.ttf": "/tech-part-followers/static/media/Montserrat-SemiBold.8771894959de6e640354.ttf",
+    "static/media/Montserrat-Medium.eot": "/tech-part-followers/static/media/Montserrat-Medium.418e43db3ef66b97a7ef.eot",
+    "static/media/Montserrat-Medium.ttf": "/tech-part-followers/static/media/Montserrat-Medium.693c527aec0de211945e.ttf",
+    "static/media/Montserrat-Medium.woff": "/tech-part-followers/static/media/Montserrat-Medium.d42dad28f6470e5162c2.woff",
+    "static/media/Montserrat-SemiBold.woff": "/tech-part-followers/static/media/Montserrat-SemiBold.197213592de7a2a62e06.woff",
     "static/media/hero-picture.png": "/tech-part-followers/static/media/hero-picture.86562350dcaa714a1442.png",
     "index.html": "/tech-part-followers/index.html",
-    "main.ab28ba3f.css.map": "/tech-part-followers/static/css/main.ab28ba3f.css.map",
-    "main.c59602c6.js.map": "/tech-part-followers/static/js/main.c59602c6.js.map",
-    "936.45b6651d.chunk.css.map": "/tech-part-followers/static/css/936.45b6651d.chunk.css.map",
-    "936.1759bb5d.chunk.js.map": "/tech-part-followers/static/js/936.1759bb5d.chunk.js.map",
-    "552.21cccde3.chunk.css.map": "/tech-part-followers/static/css/552.21cccde3.chunk.css.map",
-    "552.acf6b2b4.chunk.js.map": "/tech-part-followers/static/js/552.acf6b2b4.chunk.js.map",
+    "main.1ba5722d.css.map": "/tech-part-followers/static/css/main.1ba5722d.css.map",
+    "main.07bf816f.js.map": "/tech-part-followers/static/js/main.07bf816f.js.map",
+    "970.ca88d8ee.chunk.css.map": "/tech-part-followers/static/css/970.ca88d8ee.chunk.css.map",
+    "970.6e78187c.chunk.js.map": "/tech-part-followers/static/js/970.6e78187c.chunk.js.map",
+    "694.fa56d626.chunk.css.map": "/tech-part-followers/static/css/694.fa56d626.chunk.css.map",
+    "694.8921b7f0.chunk.js.map": "/tech-part-followers/static/js/694.8921b7f0.chunk.js.map",
     "787.bf947195.chunk.js.map": "/tech-part-followers/static/js/787.bf947195.chunk.js.map",
     "693.347e1e89.chunk.js.map": "/tech-part-followers/static/js/693.347e1e89.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab28ba3f.css",
-    "static/js/main.c59602c6.js"
+    "static/css/main.1ba5722d.css",
+    "static/js/main.07bf816f.js"
   ]
 }

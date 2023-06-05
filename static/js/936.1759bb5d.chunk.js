@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktech_part_followers=self.webpackChunktech_part_followers||[]).push([[936],{936:function(e,r,t){t.r(r),t.d(r,{default:function(){return l}});var s="Home_wrapper__vZN5h",a="Home_title__+KWKk",c=t(184),l=function(){return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)("h1",{className:a,children:"Welcome to your home page!"}),(0,c.jsx)("div",{className:s})]})}}}]);
-//# sourceMappingURL=936.1759bb5d.chunk.js.map
